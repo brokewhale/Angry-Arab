@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useRef, useEffect } from "react";
 import { ethers } from "ethers";
 import { hasEthereum } from "../../utils/ethereum";
-import Minter from "../../src/artifacts/contracts/Minter.sol/Minter.json";
+import Minter from "../../src/artifacts/contracts/Minter/Minter.json";
 import Wallet from "../../components/Wallet";
 import { useRouter } from "next/router";
 export default function Home() {
