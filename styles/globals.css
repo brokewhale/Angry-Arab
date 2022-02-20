@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.what {
+  display: none;
+}
+
+.arabPng {
+  background-image: url("/assets/a.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mintSec {
+  padding: 35px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tp {
+  font: size 20px;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 1172px) {
+  .dd {
+    grid-template-columns: 1fr !important;
+    width: 100vw;
+    height: 70vh !important;
+  }
+
+  .tsp {
+    margin-top: 45px;
+  }
+
+  .hh {
+    height: unset !important;
+  }
+}
