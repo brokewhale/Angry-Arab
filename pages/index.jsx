@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState, useRef, useEffect } from "react";
 import { ethers } from "ethers";
 import { hasEthereum } from "../utils/ethereum";
-import Minter from "../src/artifacts/contracts/Minter/Minter.json";
+import Minter from "../public/config/Minter.json";
 import TotalSupply from "../components/TotalSupply";
 import Wallet from "../components/Wallet";
 import YourNFTs from "../components/YourNFTs";
